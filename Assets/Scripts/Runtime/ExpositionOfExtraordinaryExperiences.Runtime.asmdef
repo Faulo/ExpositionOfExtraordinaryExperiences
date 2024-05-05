@@ -1,7 +1,11 @@
 {
     "name": "ExpositionOfExtraordinaryExperiences.Runtime",
     "rootNamespace": "",
-    "references": [],
+    "references": [
+        "Slothsoft.UnityExtensions",
+        "MyBox",
+        "Unity.TextMeshPro"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
