@@ -1,0 +1,19 @@
+{
+    "name": "EEE.Core",
+    "rootNamespace": "",
+    "references": [
+        "Slothsoft.UnityExtensions",
+        "MyBox",
+        "Unity.TextMeshPro",
+        "EEE.Interfaces"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

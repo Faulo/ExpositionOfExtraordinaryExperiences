@@ -4,7 +4,7 @@ using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace ExpositionOfExtraordinaryExperiences {
+namespace EEE.Core {
     sealed class ProcessRunner : IDisposable {
         readonly IProcessLogger logger;
 

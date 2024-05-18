@@ -2,7 +2,7 @@
 using System.Collections.Concurrent;
 using UnityEngine;
 
-namespace ExpositionOfExtraordinaryExperiences {
+namespace EEE.Core {
     sealed class Logger : MonoBehaviour, IProcessLogger {
         public event Action<string, string> onStart;
         public event Action<string> onOutput;

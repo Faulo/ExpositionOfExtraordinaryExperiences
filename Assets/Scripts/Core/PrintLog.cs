@@ -3,7 +3,7 @@ using Slothsoft.UnityExtensions;
 using TMPro;
 using UnityEngine;
 
-namespace ExpositionOfExtraordinaryExperiences {
+namespace EEE.Core {
     sealed class PrintLog : MonoBehaviour {
 
         TextMeshProUGUI textMesh;

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ExpositionOfExtraordinaryExperiences {
+namespace EEE.Core {
     interface IProcessLogger {
         event Action<string, string> onStart;
         event Action<string> onOutput;

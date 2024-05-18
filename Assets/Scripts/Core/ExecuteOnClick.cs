@@ -2,7 +2,7 @@ using Slothsoft.UnityExtensions;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace ExpositionOfExtraordinaryExperiences {
+namespace EEE.Core {
     sealed class ExecuteOnClick : MonoBehaviour {
         [SerializeField]
         string directory;
