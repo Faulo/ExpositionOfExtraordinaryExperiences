@@ -1,0 +1,17 @@
+{
+    "name": "EEE.FPS",
+    "rootNamespace": "",
+    "references": [
+        "EEE.Interfaces",
+        "System.Runtime.CompilerServices"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
