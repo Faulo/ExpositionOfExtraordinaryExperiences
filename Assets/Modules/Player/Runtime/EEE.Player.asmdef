@@ -1,0 +1,19 @@
+{
+    "name": "EEE.Player",
+    "rootNamespace": "",
+    "references": [
+        "EEE.Interfaces",
+        "System.Runtime.CompilerServices",
+        "Unity.InputSystem",
+        "EEE.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

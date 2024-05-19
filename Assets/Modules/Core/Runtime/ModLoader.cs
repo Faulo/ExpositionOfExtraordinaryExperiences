@@ -31,6 +31,9 @@ namespace EEE.Core {
 
         internal readonly List<ICharacterSource> characters = new();
 
+        public bool hasCharacterSource => characters.Count > 0;
+        public ICharacterSource currentCharacterSource => characters[0];
+
         public void RegisterCharacterController(ICharacterSource source) {
             characters.Add(source);
         }
