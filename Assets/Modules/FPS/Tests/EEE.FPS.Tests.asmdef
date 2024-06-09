@@ -1,10 +1,11 @@
 {
-    "name": "EEE.FPS",
+    "name": "EEE.FPS.Tests",
     "rootNamespace": "",
     "references": [
-        "EEE.Interfaces",
-        "System.Runtime.CompilerServices",
-        "Slothsoft.UnityExtensions"
+        "GUID:0acc523941302664db1f4e527237feb3",
+        "GUID:27619889b8ba8c24980f49ee34dbb44a",
+        "GUID:babfa30a49dd4bd4a84806e44410999e",
+        "GUID:c9de09e25ff18514f814d3e9d92c89c1"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
@@ -12,7 +13,9 @@
     "overrideReferences": false,
     "precompiledReferences": [],
     "autoReferenced": true,
-    "defineConstraints": [],
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
     "versionDefines": [],
     "noEngineReferences": false
 }

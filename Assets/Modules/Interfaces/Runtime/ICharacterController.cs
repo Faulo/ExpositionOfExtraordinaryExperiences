@@ -13,6 +13,10 @@ namespace EEE.Interfaces {
         /// </summary>
         Transform cameraTarget { get; }
 
+        Vector3 characterPosition { get; set; }
+
+        Vector3 characterVelocity { get; set; }
+
         /// <summary>
         /// This is called by the engine once per frame with the current input to the character.
         /// </summary>
