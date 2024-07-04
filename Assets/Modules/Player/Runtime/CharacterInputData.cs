@@ -6,6 +6,9 @@ namespace EEE.Player {
 
         public CharacterInputData(Controls.PlayerActions player) {
             move = player.Move.ReadValue<Vector2>();
+            look = Cursor.lockState is CursorLockMode.Locked
+                ? player.Look.ReadValue<Vector2>()
+                : default;
             jump = false;
             dash = player.Dash.IsPressed();
             interact = false;
@@ -15,6 +18,7 @@ namespace EEE.Player {
         }
 
         public readonly Vector2 move { get; }
+        public readonly Vector2 look { get; }
         public readonly bool jump { get; }
         public readonly bool dash { get; }
         public readonly bool interact { get; }

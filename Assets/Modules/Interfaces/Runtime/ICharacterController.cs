@@ -17,6 +17,8 @@ namespace EEE.Interfaces {
 
         Vector3 characterVelocity { get; set; }
 
+        Quaternion characterRotation { get; set; }
+
         /// <summary>
         /// This is called by the engine once per frame with the current input to the character.
         /// </summary>

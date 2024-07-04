@@ -8,6 +8,11 @@ namespace EEE.Interfaces {
         Vector2 move { get; }
 
         /// <summary>
+        /// Camera intentions.
+        /// </summary>
+        Vector2 look { get; }
+
+        /// <summary>
         /// Jump intention. Usually bound to the south button, or Space.
         /// </summary>
         bool jump { get; }

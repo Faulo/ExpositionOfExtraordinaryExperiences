@@ -49,7 +49,7 @@ namespace EEE.Player {
         void LateUpdate() {
             if (currentCharacter is not null) {
                 currentCharacter.UpdateVisuals(Time.deltaTime);
-                camera.position = currentCharacter.characterPosition;
+                camera.SetPositionAndRotation(currentCharacter.characterPosition, currentCharacter.characterRotation);
             }
         }
     }
